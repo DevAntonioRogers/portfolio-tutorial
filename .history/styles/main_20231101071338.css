@@ -43,5 +43,5 @@ article {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  border-bottom: solid 1px #dad9d9;
+  border: solid 1px #dad9d9;
 }

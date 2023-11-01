@@ -1,0 +1,42 @@
+.resume {
+  padding: 5rem 0;
+}
+
+.resume h1 {
+  font-weight: 100;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.resume h2 {
+  border-bottom: 1px solid #dad9d9;
+  padding-bottom: 3px;
+  display: inline-block;
+}
+
+.resume-content {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  color: #333;
+}
+
+.card-header-info p:nth-child(1) {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header span {
+  background-color: #333;
+  color: white;
+  padding: 1px 10px;
+  border-radius: 10px;
+}
