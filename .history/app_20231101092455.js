@@ -3,7 +3,6 @@ const hamburger = document.querySelector('.hamburger')
 const navMenu = document.querySelector('.nav-menu')
 const body = document.querySelector('body')
 const navLinks = navMenu.querySelectorAll('li');
-const nav = document.querySelector('nav')
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active')
@@ -20,16 +19,6 @@ function closeMenu() {
 navLinks.forEach((link) => {
   link.addEventListener('click', closeMenu)
 })
-
-function handleScroll() {
-  if (window.scrollY > 150) {
-    nav.classList.add('sticky-nav')
-  } else {
-    nav.classList.remove('sticky-nav')
-  }
-}
-window.addEventListener('scroll', handleScroll)
-
 
 //TYPING DELETING TEXT
 function initTypedText() {

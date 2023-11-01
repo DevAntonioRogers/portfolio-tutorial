@@ -22,13 +22,10 @@ navLinks.forEach((link) => {
 })
 
 function handleScroll() {
-  if (window.scrollY > 150) {
+  if (window.scrollY > 300) {
     nav.classList.add('sticky-nav')
-  } else {
-    nav.classList.remove('sticky-nav')
   }
 }
-window.addEventListener('scroll', handleScroll)
 
 
 //TYPING DELETING TEXT

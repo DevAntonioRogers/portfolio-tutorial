@@ -1,0 +1,11 @@
+.projects {
+  padding: 3rem 0;
+}
+
+.projects h1 {
+  font-weight: 100;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  text-align: center;
+}

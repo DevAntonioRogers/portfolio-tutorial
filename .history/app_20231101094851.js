@@ -22,7 +22,7 @@ navLinks.forEach((link) => {
 })
 
 function handleScroll() {
-  if (window.scrollY > 150) {
+  if (window.scrollY > 250) {
     nav.classList.add('sticky-nav')
   } else {
     nav.classList.remove('sticky-nav')

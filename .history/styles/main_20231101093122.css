@@ -48,10 +48,3 @@ article {
   gap: 10px;
   border-bottom: solid 1px #dad9d9;
 }
-
-.footer-container {
-  text-align: center;
-  background-color: rgb(242, 241, 241);
-  padding: 1rem 0;
-  width: 100%;
-}
