@@ -2,8 +2,6 @@
 @import url(./navbar.css);
 @import url(./hero.css);
 @import url(./about.css);
-@import url(./skills.css);
-
 * {
   box-sizing: border-box;
   padding: 0;

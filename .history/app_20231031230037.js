@@ -20,22 +20,3 @@ function closeMenu() {
 navLinks.forEach((link) => {
   link.addEventListener('click', closeMenu)
 })
-
-//TYPING DELETING TEXT
-function initTypedText() {
-  const options = {
-    strings: [
-      "Hello, I'm John Doe",
-      "A Software Engineer",
-      "From New York",
-    ],
-    typeSpeed: 50,
-    backSpeed: 30,
-    backDelay: 1000,
-    startDelay: 500,
-    loop: true,
-  }
-  const typed = new Typed("#typed-text", options)
-}
-
-initTypedText()

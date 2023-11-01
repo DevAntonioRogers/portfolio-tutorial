@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap");
 @import url(./navbar.css);
 @import url(./hero.css);
-@import url(./about.css);
-@import url(./skills.css);
-
 * {
   box-sizing: border-box;
   padding: 0;

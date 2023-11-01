@@ -1,0 +1,32 @@
+.skills {
+  background-color: rgb(242, 241, 241);
+  padding: 5rem 0;
+  color: #333;
+  text-align: center;
+}
+
+.skills h1 {
+  font-weight: 100;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  gap: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: ;
+}

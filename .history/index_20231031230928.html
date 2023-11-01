@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>John Doe Portfolio</title>
+  </head>
+  <body>
+    <!-------- NAVBAR --------->
+    <header>
+      <nav role="navigation" aria-label="Navigation">
+        <div class="container navbar">
+          <h1>John Doe.</h1>
+
+          <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <button
+            aria-label="Toggle Mobile Menu"
+            class="hamburger"
+          >
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!--HERO SECTION -->
+      <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <div class="hero-text">
+            <h2 id="typed-text"></h2>
+          </div>
+
+          <div
+            class="hero-socials"
+            aria-label="Social Media Links"
+          >
+            <a href="#" aria-label="Twitter Link"
+              ><ion-icon name="logo-twitter"></ion-icon
+            ></a>
+            <a href="#" aria-label="Github Link"
+              ><ion-icon name="logo-github"></ion-icon
+            ></a>
+            <a href="#" aria-label="LinkedIn Link"
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></a>
+            <a href="#" aria-label="Facebook Link"
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

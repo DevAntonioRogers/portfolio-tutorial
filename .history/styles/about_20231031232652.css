@@ -1,0 +1,10 @@
+.about {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.about h1 {
+  font-weight: 100;
+  font-size: 40px;
+  text-transform: uppercase;
+}

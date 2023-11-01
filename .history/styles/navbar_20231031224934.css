@@ -1,0 +1,40 @@
+nav {
+  background-color: grey;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  padding: 1rem 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  color: white;
+  font-size: 28px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.nav-menu li {
+  font-size: 14px;
+  color: white;
+}
+
+.bar {
+  background-color: white;
+  display: block;
+  width: 23px;
+  height: 2px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+}
